@@ -11,4 +11,4 @@ echo "================"
 
 nc -z -w 1 $HOST $PORT_KNOCK
 
-ssh -i /home/mint/.ssh/mikrotik_cugrn lord@$HOST -p $PORT_CONN
+ssh -i key_path user@$HOST -p $PORT_CONN
